@@ -55,7 +55,7 @@ const Signup = () => {
         { userId: 2, name: "Mehul Mohan", username: "mehulmpt", password: "Mehul@123", profilePic: "https://pbs.twimg.com/profile_images/1418658538688155648/CREA-CYu_400x400.jpg" },
         { userId: 3, name: "Elon Musk", username: "elonmusk", password: "Elon@123", profilePic: "https://pbs.twimg.com/profile_images/1529956155937759233/Nyn1HZWF_400x400.jpg" }
       ]
-      currentUsers.push({ userId: 3, name, username, password, profilePic: "https://pbs.twimg.com/profile_images/1488548719062654976/u6qfBBkF_400x400.jpg" })
+      currentUsers.push({ userId: 4, name, username, password, profilePic: "https://pbs.twimg.com/profile_images/1488548719062654976/u6qfBBkF_400x400.jpg" })
 
       let newUsersState = {
         allUsers: currentUsers

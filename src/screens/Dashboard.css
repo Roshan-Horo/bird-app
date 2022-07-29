@@ -251,6 +251,12 @@ header {
   font-weight: 700;
 }
 
+textarea {
+  width: 100%;
+  background-color: #000000;
+  color: rgb(231, 233, 234);
+}
+
 .feed-tweets {
   max-width: 60%;
 }
@@ -318,7 +324,7 @@ header {
 }
 
 .feed-title-div {
-  width: 90%;
+  width: 100%;
 }
 
 .content-img img {
@@ -329,6 +335,33 @@ header {
 
 .feed-profile-info {
   color: rgb(113, 118, 123);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feed-operation {
+  width: 10%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feed-operation div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feed-operation div:hover {
+  background-color: #1D1F23;
+  color: rgb(29, 155, 240);
 }
 
 .profile-name {
@@ -339,6 +372,12 @@ header {
 .feed-title {
   color: rgb(231, 233, 234);
   font-weight: 400;
+}
+
+.feed-title-input {
+  width: 100%;
+  background-color: #000000;
+  color: rgb(231, 233, 234);
 }
 
 .feed-reaction {
@@ -370,7 +409,7 @@ header {
 
 .reaction-icon:hover {
   opacity: 0.5;
-  color: blue;
+  color: rgb(29, 155, 240);
 }
 
 /* Create Tweet */

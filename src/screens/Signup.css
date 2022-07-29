@@ -71,8 +71,11 @@
   margin: auto;
 }
 
-.sign-in-google {
+.sign-in-google,
+.sign-in-apple {
   width: 100%;
+  color: #202124;
+  background-color: #ffffff;
 }
 
 .text-center {
